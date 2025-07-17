@@ -21,4 +21,5 @@ jobs:
             -e PLUGIN_GIT_USER="btpanel" \
             -e PLUGIN_GIT_EMAIL="support@bt.cn" \
             -e PLUGIN_FORCE="true" \
+            -e PLUGIN_GIT_HOST="gitee.com" \
             tencentcom/git-sync 
