@@ -14,7 +14,6 @@
     └── .env
 ```
 ## app.json
-
 ```
 {
     "appid": -1,                                                             #使用-1
@@ -140,6 +139,21 @@
     }
 }
 ```
+
+**下面是可用的 `apptype` 和 `appTypeCN`对应列表**
+
+| apptype       | appTypeCN   |
+|---------------|-------------|
+| BuildWebsite  | 建站        |
+| Database      | 数据库      |
+| Storage       | 存储/网盘   |
+| Tools         | 实用工具    |
+| Middleware    | 中间件      |
+| AI            | AI/大模型   |
+| Media         | 多媒体      |
+| Email         | 邮件/邮局   |
+| DevOps        | DevOps      |
+| System        | 系统        |
 
 ## .env
 .env中有四项为必填项HOST_IP、CPUS、MEMORY_LIMIT、APP_PATH 在app.json中定义的env的key会通过大写来转换替换到.env中
